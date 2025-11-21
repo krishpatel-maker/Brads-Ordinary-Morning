@@ -25,7 +25,7 @@ ESL = [] #ESL is Eliminated Suspects List
 J = [] #This is you Journal
 
 while b == 1:
-    print('A man was murdered in his home during his Masquarade party. \nA police tells you to investigate the house and that him and all the suspects will be sitting in the courtyard. \nHe tells you to come to him when you have found the murderer of Normandy Charles.' )
+    print('\nA man was murdered in his home during his Masquarade party.\n \nA police tells you to investigate the house and that him and all the suspects will be sitting in the courtyard.\n \nHe tells you to come to him when you have found the murderer of Normandy Charles.\n' )
     
     UI = input('\nWhere do you want to go?: ') #UI is for User Input
     
@@ -51,7 +51,7 @@ while b == 1:
             SL.remove(UI)
             ESL.append(UI)
         else:
-             print(UI, 'is not in your suspect list')
+            print(UI, 'is not in your suspect list')
     if UI == 'suspects':
         print(SL)
 #Courtyard        #Basic loop code can be seen at beginning of each area dnt ehe nd of each area
@@ -94,23 +94,23 @@ while b == 1:
                 
                         if UI == 'kanye east':
                     
-                            print('These are the notes you have gathered from Kanyes interview: No Allergies, he flipped a few billion Mcburgers to become rich, \nHe is wearing black cargo pants and a blue wool jacket')
+                            print('These are the notes you have gathered from Kanyes interview:\n1. No Allergies \n 2. He flipped a few billion Mcburgers to become rich, \n3. He is wearing black cargo pants and a blue wool jacket')
                 
                         if UI == 'warren buffoon':
                     
-                            print('\nThese are the notes you have gathered from Warrens interview: No allergies, real estate billionare, \nHe is currently wearing an all white jumpsuit with a tophat')
+                            print('\nThese are the notes you have gathered from Warrens interview:\n1. No allergies, 2. Real estate billionare, \n3. He is currently wearing an all white jumpsuit with a tophat')
                 
                         if UI == 'jeffery bagels':
                     
-                            print('\nThese are the notes you have gathered from Jefferys interview: Multi billionare with company called Bagelzon, \nHe is wearing a wool hat to cover his bald bagel head')
+                            print('\nThese are the notes you have gathered from Jefferys interview:\n1. No allergies\n2. Multi billionare with company called Bagelzon\n3. He is wearing a wool hat to cover his bald bagel head')
                 
                         if UI == 'bill fences':
                     
-                            print('\nThese are the notes you have gathered from Bills interview: Billionaire tech company founder \nHe is wearing a tropical outfit with a blue beach ball mask')
+                            print('\nThese are the notes you have gathered from Bills interview: \n1. No allergies \n2. Billionaire tech company founder \n3. He is wearing a tropical outfit with a blue beach ball mask')
                 
                         if UI == 'berry jelly-son':
                     
-                            print('\nThese are the notes you have gathered from Berrys interview: He is allergic to Peanut butter, software commerializer \nWearing neon clothing with a blue wool tie')
+                            print('\nThese are the notes you have gathered from Berrys interview: \n1. He is allergic to Peanut butter, \n2. Billion Software Commerializer 3.\nWearing neon clothing with a blue wool tie')
                     
                     else:
                         if not UI == 'leave':
@@ -190,7 +190,7 @@ while b == 1:
                         
                     if UI == '2':
                         
-                        print('\nOn the paper is text written as such, Father, I want you to know that college is going well, I am on the Deans List: ')
+                        print("\nDude, let's go golfing\n")
 
                     if UI == '3':
                 
@@ -215,6 +215,7 @@ while b == 1:
                                 
                     if UI == 'leave':
                                     
-                            k = 0
+                        k = 0
                             
-                            d = 1
+                        d = 1
+
